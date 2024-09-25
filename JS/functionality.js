@@ -104,3 +104,7 @@ function donationHistoryToggle(e) {
         }
     }
 }
+
+document.getElementById("donation").addEventListener('click', function (e) {
+    donationHistoryToggle(e);
+});
