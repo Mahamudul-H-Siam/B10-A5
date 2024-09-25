@@ -108,3 +108,6 @@ function donationHistoryToggle(e) {
 document.getElementById("donation").addEventListener('click', function (e) {
     donationHistoryToggle(e);
 });
+document.getElementById("history").addEventListener('click', function (e) {
+    donationHistoryToggle(e);
+});
